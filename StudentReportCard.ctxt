@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=StudentReportCard
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=marks
+comment2.target=void\ dataEntry(int[])
+comment3.params=name\ marks
+comment3.target=void\ reportPrinting(java.lang.String,\ int[])
+numComments=4
