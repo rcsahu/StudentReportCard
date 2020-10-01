@@ -7,12 +7,12 @@ class StudentReportCard
     public static void main(String[] args)
     {
         System.out.print("Enter name of the Student : ");
-        String name = sc.nextLine();
+        String stdName = sc.nextLine();
         System.out.print("Enter Number of Subjects  : ");
         int noOfSubjects = sc.nextInt();
         int marks[] = new int[noOfSubjects]; // array creation for storing marks
         src.dataEntry(marks);
-        src.reportPrinting(name,marks);
+        src.reportPrinting(stdName,marks);
     
     }//end of main method
     void dataEntry(int[] marks)
@@ -23,13 +23,13 @@ class StudentReportCard
      marks[i]=sc.nextInt();
     }
     }//end of dataEntry
-    void reportPrinting(String name, int[] marks)
+    void reportPrinting(String stdName, int[] marks)
     {
-        System.out.println("----------------------------");
+        
         System.out.println("\t  Report Card");
         
-        System.out.println("Name : \t "+name);
-        System.out.println("----------------------------");
+        System.out.println("Name : \t "+stdName);
+       
         System.out.println("Subject \t  Marks");
         System.out.println("----------------------------");
         int total=0;
